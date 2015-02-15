@@ -31,7 +31,7 @@ function getTokens() {
  */
 var params = {
     client_id: '651010955617-i5nog5noq43b52l7d34na4e90ih0nj1o.apps.googleusercontent.com',
-    client_secret: 'iEDFnDYQ300cNXi1cEOxVfMy',
+    client_secret: 'AIzaSyDk0Wz_2SzReEiv1oKkrneBkp8xQeURbIE',
     scope: 'https://www.googleapis.com/auth/games',
     callback: function(error, tokens) {
         if (error) log('error: ' + error);
