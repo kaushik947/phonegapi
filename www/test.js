@@ -64,10 +64,10 @@ function signOutTest() {
  
  function subscore()
  {
-  var json={};
-json.leaderboardId='CgkI_J_d9Z0NEAIQAQ';
-json.score=666;
-gapi.client.games.scores.submit(json);    
+  var jn={};
+jn.leaderboardId='CgkI_J_d9Z0NEAIQAQ';
+jn.score=666;
+gapi.client.games.scores.submit(jn);    
      
  }
  }
