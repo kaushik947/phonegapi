@@ -64,10 +64,19 @@ function signOutTest() {
  
  function subscore()
  {
+     /*
   var jn={};
 jn.leaderboardId='CgkI_J_d9Z0NEAIQAQ';
 jn.score=666;
 gapi.client.games.scores.submit(jn);    
+     */
+     var request = gapi.client.games.scores.submit(
+        {leaderboardId: "CgkI_J_d9Z0NEAIQAQ",
+        score:666}
+    );
+    request.execute(function(response) {
+      // Check to see if this is a new high score
+    });
      
  }
  
