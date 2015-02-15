@@ -70,7 +70,7 @@ jn.score=666;
 gapi.client.games.scores.submit(jn);    
      
  }
- }
+ 
 function leaderboards() {
     log('leaderboards');
     gapi.client.request({
