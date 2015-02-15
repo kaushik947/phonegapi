@@ -61,6 +61,16 @@ function signOutTest() {
 /*
  * Test if we are authenticated by listing leaderboards
  */
+ 
+ function subscore()
+ {
+  var json={};
+json.leaderboardId='CgkI_J_d9Z0NEAIQAQ';
+json.score=666;
+gapi.client.games.scores.submit(json);    
+     
+ }
+ }
 function leaderboards() {
     log('leaderboards');
     gapi.client.request({
