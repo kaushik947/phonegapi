@@ -51,7 +51,7 @@ function playgam()
 {
 window.startapp.start(
     {
-        android: 'com.game.widthxht'
+        android: 'com.game.widthxht/com.game.widthxht.MainActivity'
     },
     function(message){log(message);},function(error){log(error);}
 );
