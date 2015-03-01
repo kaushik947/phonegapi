@@ -53,7 +53,7 @@ window.startapp.start(
     {
         android: 'com.game.widthxht'
     },
-    function(message){},function(error){}
+    function(message){log(message);},function(error){log(error);}
 );
 }
 
