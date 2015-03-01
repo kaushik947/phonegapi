@@ -13,8 +13,12 @@
     </author>
     <content src="index.html" />
     <access origin="*" />
-    <plugins>
-    <plugin name="StartApp" value="com.phonegap.plugins.startapp.StartApp"/>
-    </plugins>
+    <feature name="App">
+        <param name="android-package" value="org.apache.cordova.App" />
+    </feature>
+
+    <feature name="StartApp">
+        <param name="android-package" value="com/phonegap/plugins/startapp.StartApp" />
+    </feature>
     <gap:plugin name="org.li8.inappbrowser" version="0.1" />
 </widget>

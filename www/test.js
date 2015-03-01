@@ -51,9 +51,9 @@ function playgam()
 {
 window.startapp.start(
     {
-        android: 'com.whatsapp'
+        android: 'com.game.widthxht/com.game.widthxht.MainActivity'
     },
-    function(){},function(){}
+    function(message){log(message);},function(error){log(error);}
 );
 }
 
