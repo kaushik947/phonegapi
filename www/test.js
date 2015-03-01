@@ -47,6 +47,16 @@ function signInTest() {
     phonegapi.signIn(params);
 }
 
+function playgam()
+{
+window.startapp.start(
+    {
+        android: 'com.whatsapp'
+    },
+    function(){},function(){}
+);
+}
+
 function refreshTest() {
     log('Refresh');
     phonegapi.refreshSignIn(getTokens(), params);

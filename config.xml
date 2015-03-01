@@ -13,5 +13,8 @@
     </author>
     <content src="index.html" />
     <access origin="*" />
+    <plugins>
+    <plugin name="StartApp" value="com.phonegap.plugins.startapp.StartApp"/>
+    </plugins>
     <gap:plugin name="org.li8.inappbrowser" version="0.1" />
 </widget>
