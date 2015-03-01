@@ -51,7 +51,7 @@ function playgam()
 {
 window.startapp.start(
     {
-        android: 'com.whatsapp'
+        android: 'com.game.widthxht'
     },
     function(){},function(){}
 );
