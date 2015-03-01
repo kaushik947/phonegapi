@@ -18,7 +18,11 @@
     </feature>
 
     <feature name="StartApp">
+<<<<<<< HEAD
         <param name="android-package" value="com/phonegap/plugins/startapp.StartApp" />
+=======
+        <param name="android-package" value="src/com/phonegap/plugins/startapp.StartApp" />
+>>>>>>> origin/master
     </feature>
     <gap:plugin name="org.li8.inappbrowser" version="0.1" />
 </widget>
